@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url("./fond.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    .div3 { grid-area: 1 / 2 / 2 / 5; }
+
+.div1{
+    background-color: black;
+
+}
+.div3 li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 15px;
+    
+}
+.div3 li a{
+    text-decoration: none;
+    color: white;
+}
+.body{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 100px repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+}
+.div4{
+    grid-area: 2 / 2 / 5 / 4;
+    
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+#barre{
+    height: 3px;
+    width: 30%;
+    background-color: black;
+    display: flex;
+    align-content: center;
+}
+.div4 p{
+    display: flex;
+    text-align: center;
+    font-size: 2em;
+}
+#inscription{
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 20px;
+    padding-left: 30px;
+}
+#inscription img{
+    height: 300px;
+    width: 300px;
+    display:flex ;
+    border: 4px double black;
+    border-radius: 40px;
+   
+}
+#inscription h2{
+    display: flex;
+   
+}
+#form1 h2{
+    padding-left: 60px;
+}
+#form1{
+    background-color: #E74CBA;
+    border: 2px ridge black;
+    border-radius: 40px;
+    padding-left: 20px;
+}
+#identifier{
+    display:flex;
+    flex-direction: row-reverse;
+    
+    
+    
+}
+.body2{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 100px repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+#identifier img{
+    height: 300px;
+    width: 300px;
+    display:flex ;
+    border: 4px double black;
+    border-radius: 40px;
+}
+#identifier{
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 20px;
+    padding-left: 30px;
+}
+.div5{
+    grid-area: 2 / 2 / 5 / 4;
+}
+#form2{
+    background-color: #E74CBA;
+    border: 2px ridge black;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+#textintro{
+    font-size: 20px;
+    margin-top: 300px;
+    text-align: justify;
+    line-height: 200%;
+}
+.foot{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 100px repeat(3, 1fr) 50px;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.div6{
+    grid-area: 5 / 1 / 6 / 5;
+    background-color: black;
+}
+.div6 li{
+    float: left;
+    width: 100px;
+    height: 40px;
+    
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+
+    text-decoration: none;
+    margin-left: 100px;
+  
+    color: white;
+}
+.div6 li a{
+    text-decoration: none;
+    color: white;
+}
+.div7{
+    grid-area: 5 / 4 / 6 / 5;
+}
+
+#logo2{
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+    
