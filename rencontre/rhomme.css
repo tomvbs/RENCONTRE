@@ -1,5 +1,5 @@
 body{
-    background-color: hotpink;
+    background-color: deeppink;
 
 }
 header{
@@ -9,24 +9,24 @@ header{
 img{
     height: 400px;
     width: 300px;
+    
 }
 .parent {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(2, 1fr) 2fr 1fr 2fr 1fr 2fr;
+    grid-template-rows: repeat(6, 1fr) ;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    position: absolute;
 }
     
-    .div1 { grid-area: 1 / 1 / 2 / 8; }
-    .div2 { grid-area: 3 / 2 / 4 / 3; }
-    .div3 { grid-area: 3 / 4 / 4 / 5; }
-    .div4 { grid-area: 3 / 6 / 4 / 7; }
-    .div5 { grid-area: 5 / 2 / 6 / 3; }
-    .div6 { grid-area: 5 / 4 / 6 / 5; }
-    .div7 { grid-area: 5 / 6 / 6 / 7; }
-    .div8 { grid-area: 7 / 2 / 8 / 3; }
-    .div9 { grid-area: 7 / 4 / 8 / 5; }
-    .div10 { grid-area: 7 / 6 / 8 / 7; }
 
- 
+    .div2 { grid-area: 1 / 2 / 2 / 2; }
+    .div3 { grid-area: 1 / 4 / 2 / 5; }
+    .div4 { grid-area: 1 / 6 / 2 / 7; }
+    .div5 { grid-area: 3 / 2 / 4 / 2; }
+    .div6 { grid-area: 3 / 4 / 4 / 5; }
+    .div7 { grid-area: 3 / 6 / 4 / 7; }
+    .div8 { grid-area: 5 / 2 / 6 / 3; }
+    .div9 { grid-area: 5 / 4 / 6 / 5; }
+    .div10 {grid-area: 5 / 6 / 6 / 7; }  
