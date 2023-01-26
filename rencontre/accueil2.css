@@ -1,3 +1,6 @@
+
+
+
 body{
     margin: 0;
     padding:0;
@@ -21,6 +24,7 @@ background-size: cover;
 
 }
 .div3 li{
+    font-family: 'Heebo', sans-serif;
     float: left;
     width: 200px;
     height: 40px;
@@ -36,6 +40,7 @@ background-size: cover;
 }
 .div3 li a{
     text-decoration: none;
+   
     color: white;
 }
 .body{
@@ -54,16 +59,21 @@ grid-row-gap: 0px;
 h1{
     font-size: 3em;
     text-align: center;
+    font-family: 'Heebo', sans-serif;
+
 }
 #barre{
     height: 3px;
     width: 30%;
     background-color: black;
-    display: flex;
-    align-content: center;
+    border-radius: 40px;
+    margin-left: 270px;
+
+    
 }
 .div4 p{
-    display: flex;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
     text-align: center;
     font-size: 2em;
 }
@@ -123,6 +133,7 @@ grid-row-gap: 0px;
     font-size: 20px;
     padding-left: 30px;
 }
+
 .div5{
     grid-area: 2 / 2 / 5 / 4;
 }
@@ -133,10 +144,21 @@ grid-row-gap: 0px;
     padding-left: 20px;
 }
 #textintro{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Heebo', sans-serif;
+
     font-size: 20px;
     margin-top: 300px;
     text-align: justify;
     line-height: 200%;
+    color: rgb(255, 255, 255);
+    padding: 100px;
+    -webkit-box-shadow: 18px 16px 38px 7px #E74CBA; 
+box-shadow: 18px 16px 38px 7px #E74CBA;
+background-color: #000000;
+border-radius: 40px;
 }
 .foot{
     display: grid;
@@ -176,4 +198,11 @@ grid-row-gap: 0px;
     height: 50px;
     width: 50px;
 }
+.log{
+  
+    height: 40px;
+    width: 40px;
     
+    
+}
+

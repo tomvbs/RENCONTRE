@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-image: url("./fond.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*-------------------HEADER---------------*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+} 
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    .div3 { grid-area: 1 / 2 / 2 / 5; }
+
+
+.div1{
+    background-color: black;
+
+}
+.div3 li{
+    font-family: 'Heebo', sans-serif;
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 15px;
+    
+}
+.div3 li a{
+    text-decoration: none;
+   
+    color: white;
+}
+
+/*-----------------BODY----------------------*/
+.body{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin:0;
+}
+.body1 {  grid-area: 2 / 2 / 5 / 8;
+    
+        
+        
+}
+
+
+/*---------------------Card femme 1 a 3 ----------------*/
+    
+.f1-3{
+    grid-area: 2 / 2 / 3 / 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.f3-6{
+    grid-area: 3 / 2 / 4 / 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.f6-9{
+    grid-area: 4 / 2 / 5 / 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.cardf1{
+    background-color: black;
+    border: 5px solid #E74CBA;
+    border-radius: 40px;
+    padding: 10px;
+}
+.cardf1 button{
+    display:flex;
+     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E74CBA;
+}
+.image{
+    border-radius: 40px;
+}
+.cardf2{
+    background-color: black;
+    border: 5px solid #E74CBA;
+    border-radius: 40px;
+    padding: 10px;
+}
+.cardf2 button{
+    display:flex;
+     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E74CBA;
+}
+
+.cardf3{
+        background-color: black;
+        border: 5px solid #E74CBA;
+        border-radius: 40px;
+        padding: 10px;
+    }
+.cardf3 button{
+        display:flex;
+         margin-left: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #E74CBA;
+}
+.cardf4{
+    background-color: black;
+    border: 5px solid #E74CBA;
+    border-radius: 40px;
+    padding: 10px;
+}
+.cardf4 button{
+    display:flex;
+     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E74CBA;
+}
+.cardf5{
+    background-color: black;
+    border: 5px solid #E74CBA;
+    border-radius: 40px;
+    padding: 10px;
+}
+.cardf5 button{
+    display:flex;
+     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E74CBA;
+}
+.cardf6{
+    background-color: black;
+    border: 5px solid #E74CBA;
+    border-radius: 40px;
+    padding: 10px;
+}
+.cardf6 button{
+    display:flex;
+     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E74CBA;
+}
+.cardf7{
+    background-color: black;
+    border: 5px solid #E74CBA;
+    border-radius: 40px;
+    padding: 10px;
+}
+.cardf7 button{
+    display:flex;
+     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E74CBA;
+}
+.cardf8{
+    background-color: black;
+    border: 5px solid #E74CBA;
+    border-radius: 40px;
+    padding: 10px;
+}
+.cardf8 button{
+    display:flex;
+     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E74CBA;
+}
+.cardf9{
+    background-color: black;
+    border: 5px solid #E74CBA;
+    border-radius: 40px;
+    padding: 10px;
+}
+.cardf9 button{
+    display:flex;
+     margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E74CBA;
+}
+.foot{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 100px repeat(3, 1fr) 50px;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.div6{
+    grid-area: 5 / 1 / 6 / 5;
+    background-color: black;
+}
+.div6 li{
+    float: left;
+    width: 100px;
+    height: 40px;
+    padding-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+
+    text-decoration: none;
+    margin-left: 100px;
+  
+    color: white;
+}
+.div6 li a{
+    text-decoration: none;
+    color: white;
+}
+.div7{
+    grid-area: 5 / 4 / 6 / 5;
+}
+
+#logo2{
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+.log{
+  
+    height: 40px;
+    width: 40px;
+    
+    
+}
+        
