@@ -3,7 +3,6 @@
   padding: 0;
 }
 body{
-<<<<<<< HEAD
  
   background-image: url("./fond.jpeg");
 background-repeat: no-repeat;
@@ -25,9 +24,6 @@ background-size: cover;
 
 .div1{
   background-color: black;
-=======
-    background-color: deeppink;
->>>>>>> a8647dfaa66a25fc2fdfe62138f8897407e22dc8
 
 }
 .div3 li{
@@ -254,32 +250,5 @@ grid-row-gap: 0px;
 
   height: 40px;
   width: 40px;
+}
   
-  
-}
-=======
-img{
-    height: 400px;
-    width: 300px;
-    
-}
-.parent {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr) ;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    position: absolute;
-}
-    
-
-    .div2 { grid-area: 1 / 2 / 2 / 2; }
-    .div3 { grid-area: 1 / 4 / 2 / 5; }
-    .div4 { grid-area: 1 / 6 / 2 / 7; }
-    .div5 { grid-area: 3 / 2 / 4 / 2; }
-    .div6 { grid-area: 3 / 4 / 4 / 5; }
-    .div7 { grid-area: 3 / 6 / 4 / 7; }
-    .div8 { grid-area: 5 / 2 / 6 / 3; }
-    .div9 { grid-area: 5 / 4 / 6 / 5; }
-    .div10 {grid-area: 5 / 6 / 6 / 7; }  
->>>>>>> a8647dfaa66a25fc2fdfe62138f8897407e22dc8
