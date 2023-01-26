@@ -3,6 +3,7 @@
   padding: 0;
 }
 body{
+
  
   background-image: url("./fond.jpeg");
 background-repeat: no-repeat;
@@ -25,6 +26,7 @@ background-size: cover;
 .div1{
   background-color: black;
 
+
 }
 .div3 li{
   font-family: 'Heebo', sans-serif;
@@ -41,7 +43,6 @@ background-size: cover;
   margin-top: 15px;
   
 }
-<<<<<<< HEAD
 .div3 li a{
   text-decoration: none;
  
@@ -251,4 +252,5 @@ grid-row-gap: 0px;
   height: 40px;
   width: 40px;
 }
+  
   
